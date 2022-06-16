@@ -1,0 +1,32 @@
+{
+  "name": "webappreact",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "glogin": "clasp login",
+    "glogout": "clasp logout",
+    "gpush": "clasp push",
+    "gpull": "clasp pull",
+    "gstart": "clasp push --watch",
+    "start": "parcel src/index.html --dist-dir ./apps-script",
+    "gcreate": "clasp create --title 'React Test Procject' --rootDir ./apps-script",
+    "gclone": "clasp clone 1OnH_tQz1QOaGEofL0KLq_oNZuD_9r3xvOtxsmf6ozjrlFanHPba41-_o --rootDir ./apps-script",
+    "gbuild": "parcel build src/index.html --dist-dir ./apps-script"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@google/clasp": "^2.4.1",
+    "@parcel/transformer-sass": "^2.6.0",
+    "@types/google-apps-script": "^1.0.48",
+    "parcel": "^2.6.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0"
+  }
+}
