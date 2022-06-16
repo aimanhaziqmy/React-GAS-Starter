@@ -11,7 +11,7 @@
     "gstart": "clasp push --watch",
     "start": "parcel src/index.html --dist-dir ./apps-script",
     "gcreate": "clasp create --title 'React Test Procject' --rootDir ./apps-script",
-    "gclone": "clasp clone 1OnH_tQz1QOaGEofL0KLq_oNZuD_9r3xvOtxsmf6ozjrlFanHPba41-_o --rootDir ./apps-script",
+    "gclone": "clasp clone <ID> --rootDir ./apps-script",
     "gbuild": "parcel build src/index.html --dist-dir ./apps-script"
   },
   "keywords": [],
