@@ -1,2 +1,2 @@
 # React-GAS-Starter
-React and Google Apps Script Starter with Parcel and React Router Dom. 
+React and Google Apps Script Starter with Parcel and React Router Dom. Can be directly use.
